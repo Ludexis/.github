@@ -6,14 +6,14 @@ Thanks for helping out. Ludexis is split into three repositories; open issues an
 | ------ | ---------- |
 | API, scanner, metadata, jobs, database | [ludexis-backend](https://github.com/Ludexis/ludexis-backend) |
 | Web app, pages, components | [ludexis-frontend](https://github.com/Ludexis/ludexis-frontend) |
-| Docker Compose, deployment, documentation | [Ludexis](https://github.com/InvictusRex/Ludexis) |
+| Docker Compose, deployment, documentation | [Ludexis](https://github.com/Ludexis/Ludexis) |
 
 ## Setting up
 
 Clone everything at once and start PostgreSQL and Redis:
 
 ```bash
-git clone --recurse-submodules https://github.com/InvictusRex/Ludexis.git
+git clone --recurse-submodules https://github.com/Ludexis/Ludexis.git
 cd Ludexis
 docker compose -f docker-compose.dev.yml up -d
 ```
